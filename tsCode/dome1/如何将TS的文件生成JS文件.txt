@@ -1,0 +1,14 @@
+vscode
+配置自动编译文件的过程
+ npm i -g  typescript
+ 
+ tsc index.ts //将TS文件转化成JS文件
+ 
+ 
+ 在此目录下的
+ tsc --init
+ 
+ 生成tsConfig.json
+ 文件修改生成js文件的位置
+ "outDir": "./js",    
+ 之后再VScode的终端找到 运行任务tsc 监视tsConfig.json
