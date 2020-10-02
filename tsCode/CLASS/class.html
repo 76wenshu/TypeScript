@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./class.js"></script>
+</head>
+<body>
+    <script>
+ 
+// es5里的继承
+        //最简单的类
+        // function Person(){
+        //     this.name = "zs",
+        //     this.age ='25'
+        //     this.run = function(){
+        //         alert(this.name)
+        //     }
+        // }
+      
+        // //原型链上的属性和函数会被多个实例共享构造函数不会
+        // persor.prototype.sex = 'man';
+        // persor.prototype.work =function(){
+        //     alert(this.sex)
+        // } 
+        // let per =  new Person()
+        // per.work()
+               //类里边的形态 方法
+// 直接在类上直接添加方法
+// Person.getClass = function(){
+//     alert('直接方法')
+// }
+//继承 原型链+队形冒充
+// function web(){
+    // Person.call(this, name, age)//对象冒充实现可以继承构造函数的使用方法，但是不能够使用原型链里的方法
+// }
+// 原型链实现继承
+// function web(){
+// }
+// web.prototype = new Perdon(); //原型链实现继承
+
+//原型链的问题 ，是不能通过实例进行参数的传输
+//实例化子类的时候没办法给父类传参数
+
+//组合冒充和原型链的继承
+
+
+    </script>
+</body>
+</html>
